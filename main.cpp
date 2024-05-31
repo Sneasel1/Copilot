@@ -1,12 +1,5 @@
 #include <iostream>
-
-void sayHello() {
-    std::cout << "Hello, world!\n";
-}
-
-void sayGoodbye() {
-    std::cout << "Cyas!\n";
-}
+#include "messages.h"
 
 int main() {
     sayHello();
